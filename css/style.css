@@ -1,0 +1,228 @@
+/*HOME*/
+
+.ppal-home {
+    margin: 0;
+    background: url(../imagenes/fondoppal.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.logo {
+    margin: 10px 0px 10px 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.principal {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin: 20px;
+}
+
+.imagen_inicial {
+    width: 600px;
+    height: 400px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 5rem;
+}
+
+.btn-iniciar {
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: larger;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    transition-duration: 0.9s;
+}
+
+.btn-iniciar:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+
+/*FOOTER PAGINA HOME*/
+
+.authorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+/*REGLAS 2DA PAGINA*/
+
+.rules {
+    margin: 0;
+    background: url(../imagenes/fondosecun.jfif) no-repeat center;
+    background-size: cover;
+}
+
+h2 {
+    margin: 30px 0px 20px 50px;
+    font-size: 5rem;
+    color: white;
+}
+
+.lista {
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    border: 3px solid blue;
+    width: 375px;
+    padding: 20px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+}
+
+.img-horcado2 {
+    width: 600px;
+    height: 400px;
+}
+
+.ppresentacion {
+    display: block;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: 3px solid blue;
+    font-size: medium;
+    letter-spacing: 2px;
+    width: 800px;
+    text-align: justify;
+    margin: 25px 0px 0px 385px;
+    padding: 20px;
+}
+
+
+/*BOTONES JUGAR Y SALIR*/
+
+.piealineado {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.botones {
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: xx-large;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    transition-duration: 0.9s;
+}
+
+.botones:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+
+/*JUGANDO PAGINA 3*/
+
+.ppalgame {
+    margin: 0;
+    background: url(../imagenes/fondogame.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.titulogame {
+    color: green;
+    font-size: xx-large;
+    display: flex;
+    justify-content: right;
+    margin-right: 115px;
+    margin-bottom: 10px;
+}
+
+#pantalla {
+    margin: auto;
+    padding: 10px;
+    background: rgb(255, 255, 255, .5);
+    border-radius: 25px;
+    display: flex;
+}
+
+.botones-ppal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.boton-game {
+    color: black;
+    background-color: green;
+    border: none;
+    border-radius: 25px;
+    font-size: xx-large;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    transition-duration: 0.9s;
+}
+
+.boton-game:hover {
+    cursor: pointer;
+    background-color: gold;
+}
+
+.hidden {
+    color: transparent;
+}
+
+
+/*intro Palabra*/
+
+.entrada {
+    padding: 10px 20px;
+    width: 300px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 0px 10px 0px 430px;
+    background: rgb(241, 243, 243);
+    font-size: xx-large;
+}
+
+.btn-game {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: green;
+    border: none;
+    border-radius: 25px;
+    font-size: xx-large;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    transition-duration: 0.9s;
+}
+
+.btn-game:hover {
+    cursor: pointer;
+    background-color: gold;
+}
+
+.audioGame {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 2rem;
+    color: black;
+}
